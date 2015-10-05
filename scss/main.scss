@@ -5,17 +5,23 @@ $lobster: 'Lobster', cursive;
 .hexback {
 	background-color: black;
 }
-
 	.container {
 		color: white;
-		background-color: none;
 		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 		font-family: $lobster;
-		padding-top: 100px;
+		padding-top: 300px;
 		}
 		.clock {
 			width: 100%;
 			font-size: 180px;
+			border: 1px solid white;
+			background-image: url(hulk-angry.jpg);
+			background-size: cover;
+			overflow: hidden;
+		}
+		.change {
+			width: 100%;
+			font-size: 190px;
 		}
