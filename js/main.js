@@ -1,4 +1,5 @@
 	window.setInterval (function (){
+		
 		var currentHour = new Date().getHours();
 		if (currentHour < 10) {
 		(currentHour) = ('0' + currentHour);
@@ -17,13 +18,12 @@
 		} else if (currentSec > 10) {
 			currentSec = currentSec;
 		};
-	document.getElementById('clock').innerHTML = '#' + currentHour + currentMin + currentSec;
-	}, 1000);
 
-	var hexback = $('#hexback');
+		var hexback = ('#' + currentHour + currentMin + currentSec);
 
-	window.setInterval (function (){
-		hexback.css('backgroundColor');
+		$('#hexback').css('background-color' , hexback);
+		
+		document.getElementById('clock').innerHTML = '#' + currentHour + currentMin + currentSec;
 	}, 1000);
 
 
