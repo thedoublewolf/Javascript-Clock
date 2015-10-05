@@ -1,42 +1,21 @@
-body {
-	// background-color: grey;
+//cool fonts
+$lobster: 'Lobster', cursive;
+
+
+.hexback {
+	background-color: black;
 }
-.container {
-	// background-color: grey;
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-	// padding-top: 200px;
-}
-.hour {
-	width: 200px;
-	height: 100%;
-	// background-color: grey;
-	display: inline-block;
-	text-align: center;
-	font-size: 180px;
-}
-.min {
-	width: 200px;
-	height: 100%;
-	// background-color: grey;
-	display: inline-block;
-	text-align: center;
-	font-size: 180px;
-}
-.sec {
-	width: 200px;
-	height: 100%;
-	// background-color: grey;
-	display: inline-block;
-	text-align: center;
-	font-size: 180px;
-}
-.colon {
-	width: 50px;
-	// height: 100%;
-	// background-color: grey;
-	display: inline-block;
-	text-align: center;
-	font-size: 180px;
-}
+
+	.container {
+		color: white;
+		background-color: none;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		font-family: $lobster;
+		padding-top: 100px;
+		}
+		.clock {
+			width: 100%;
+			font-size: 180px;
+		}

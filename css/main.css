@@ -1,31 +1,15 @@
+.hexback {
+  background-color: black; }
+
 .container {
+  color: white;
+  background-color: none;
   width: 100%;
   margin: 0 auto;
-  text-align: center; }
-
-.hour {
-  width: 200px;
-  height: 100%;
-  display: inline-block;
   text-align: center;
-  font-size: 180px; }
+  font-family: "Lobster", cursive;
+  padding-top: 100px; }
 
-.min {
-  width: 200px;
-  height: 100%;
-  display: inline-block;
-  text-align: center;
-  font-size: 180px; }
-
-.sec {
-  width: 200px;
-  height: 100%;
-  display: inline-block;
-  text-align: center;
-  font-size: 180px; }
-
-.colon {
-  width: 50px;
-  display: inline-block;
-  text-align: center;
+.clock {
+  width: 100%;
   font-size: 180px; }
