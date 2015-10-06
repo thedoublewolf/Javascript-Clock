@@ -1,22 +1,26 @@
-.hexback {
+body {
   background-color: black; }
 
 .container {
   color: white;
   width: 100%;
   margin: 0 auto;
-  text-align: center;
-  font-family: "Lobster", cursive;
-  padding-top: 300px; }
+  font-family: "Bangers", cursive; }
+
+.hulk {
+  background-image: url(https://ladygeekgirl.files.wordpress.com/2013/03/hulk-angry.jpg);
+  background-position: center;
+  width: 100%; }
 
 .clock {
   width: 100%;
-  font-size: 180px;
-  border: 1px solid white;
-  background-image: url(hulk-angry.jpg);
-  background-size: cover;
-  overflow: hidden; }
+  padding-top: 750px;
+  padding-bottom: 50px;
+  font-size: 140px;
+  text-align: center;
+  opacity: 0.8;
+  text-shadow: 5px 5px 1px black; }
 
 .change {
   width: 100%;
-  font-size: 190px; }
+  font-size: 142px; }

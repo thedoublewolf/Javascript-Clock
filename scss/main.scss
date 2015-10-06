@@ -1,27 +1,32 @@
 //cool fonts
-$lobster: 'Lobster', cursive;
+$bangers: 'Bangers', cursive;
 
-
-.hexback {
+body {
 	background-color: black;
 }
-	.container {
-		color: white;
+
+.container {
+color: white;
+width: 100%;
+margin: 0 auto;
+font-family: $bangers;
+}
+	.hulk {
+	background-image: url(https://ladygeekgirl.files.wordpress.com/2013/03/hulk-angry.jpg);
+	background-position: center;
+	width: 100%;
+
+	}
+	.clock {
 		width: 100%;
-		margin: 0 auto;
+		padding-top: 750px;
+		padding-bottom: 50px;
+		font-size: 140px;
 		text-align: center;
-		font-family: $lobster;
-		padding-top: 300px;
-		}
-		.clock {
-			width: 100%;
-			font-size: 180px;
-			border: 1px solid white;
-			background-image: url(hulk-angry.jpg);
-			background-size: cover;
-			overflow: hidden;
-		}
-		.change {
-			width: 100%;
-			font-size: 190px;
-		}
+		opacity: 0.8;
+		text-shadow: 5px 5px 1px black;
+	}
+	.change {
+		width: 100%;
+		font-size: 142px;
+	}

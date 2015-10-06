@@ -18,14 +18,14 @@
 		} else if (currentSec > 10) {
 			currentSec = currentSec;
 		};
+	
+		var clock = ('#' + currentHour + currentMin + currentSec);
+		$('#clock').css('background-color' , clock);
+	
 
-		var hexback = ('#' + currentHour + currentMin + currentSec);
-
-		$('#hexback').css('background-color' , hexback);
-
-		
-		document.getElementById('clock').innerHTML = '#' + currentHour + currentMin + currentSec;
+	document.getElementById('clock').innerHTML = '#' + currentHour  + currentMin + currentSec + '!!';
 	}, 1000);
+
 
 	window.setInterval (function (){
 		$('.clock').toggleClass('change');
